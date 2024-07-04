@@ -1,0 +1,62 @@
+body {
+    background-color:bisque;
+    background-repeat: no-repeat;
+    background-size:cover ;
+    background-image: url(image/banner.jpg);
+}
+
+
+
+.para {
+    letter-spacing: 6px;
+    word-spacing: 6px;
+    text-align: center;
+    color:chartreuse;
+    font-weight: 200px;
+    font-size: 55px;
+}
+
+.play-with-letter {
+    letter-spacing: 33px;
+    line-height: 44px;
+    word-spacing: 22px;
+    text-align: center;
+    color: blue;
+    text-transform :capitalize;
+}
+
+ul {
+    list-style: square;
+    list-style-image: url(image/banner.jpg);
+    list-style-position: inside;
+    list-style-position: outside;
+    list-style:none;
+    font-size: 45px;
+
+}
+
+.change-w {
+    letter-spacing: 22px;
+    color: crimson;
+    text-transform: capitalize;
+}
+
+.b-color {
+    background-color:darkcyan;
+    font-size: 45px;
+}
+
+div.first {
+    opacity:0.1;
+}
+
+div.first {
+    opacity:0.3;
+}
+
+div.first {
+    opacity:0.6;
+}
+
+
+
