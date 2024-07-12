@@ -1,32 +1,71 @@
-.External1 {
-    color: aquamarine;
-    font-size: 45px;
-    font-weight: 500;
-    text-align:center;
-    font-style: italic;
-    font-family: Arial, Helvetica, sans-serif;
-    text-decoration: line-through;
-    text-transform: uppercase;
+body {
+    background-image: url(./b1.jpg);
+    background-size: cover;
+
 }
 
-.External2 {
-    color:#E9C46A;
-    font-size: 63px;
-    font-weight: 100;
-    text-align:center;
-    font-style: oblique;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    text-decoration: overline;
-    text-transform: capitalize;
-}
-
-.External3 {
-    color: brown;
-    font-size: 73px;
-    font-weight: 300;
+.header{
+    color: white;
     text-align: center;
+    font-size: 17px;
+   }
+
+   .heading{
+    font-size: 85px;
     font-style: normal;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    text-decoration: underline;
-    text-transform: lowercase;
-}
+    text-align: center;
+    color:aliceblue;
+    }
+
+    .flex-container {
+        display: flex;
+        justify-content: center; 
+        justify-content: flex-start; 
+        background-color: white;
+        padding:10pz;
+        width:8px;
+        }
+
+    .button1 {
+            background-color:white;
+            /* position:absolute; */
+            font-size: 30px;
+            /* margin:78px,15px; */
+            border-radius: 22px;
+            text-align: center;
+            color: white;
+            background: transparent;
+        }
+
+    .button2 {
+            background-color: white;
+            font-size: 30px;
+            /* position: absolute; */
+            /* margin-top: 50px; */
+            border-radius: 22px;
+            text-align: center;
+        }
+        
+    .button {
+        position: absolute;
+        top: 290px;
+        left:500px;
+    }
+
+    .flex-container {
+        justify-content: ;
+    }
+    
+    
+    
+    
+        .flex-item {
+        background-color: white;
+        border: 3px;
+        font-size:34px;
+        text-align: center;
+        padding: 22px;
+        margin: 22px;
+    }
+
+
