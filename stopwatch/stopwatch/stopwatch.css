@@ -1,31 +1,50 @@
-body{
-    background-image: url(./img1.jpg);
+body {
+    background-image: url(./images1.jpg);
     background-size: cover;
-}
-
-
-.buttons {
-    margin: -162px;
-    padding: 5px;
-    font-size: 200px;
-    border-radius: 4px;
-    cursor: pointer;
-    align-items: center; 
-    text-align:center;
-    justify-content: space-between;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
 }
 
 .timer {
-    text-align: center;
-    color: black;
-    font-size: 100px;
-    font-weight: 50px;
+    color:darkred ;
+    font-size: 5vw; /* Responsive font size based on viewport width */
+    font-weight: 500;
     margin-bottom: 40px;
 }
 
 .stopwatch {
-    text-align: center;
-    color:lightseagreen;
+    color: black;
     font-weight: bold;
-    margin-top: 100px;
+    margin-top: 50px;
+    font-size: 3vw; /* Responsive font size based on viewport width */
+}
+
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Space between buttons */
+    margin-top: 20px;
+}
+    
+}
+
+@media (max-width: 576px) {
+    .timer {
+        font-size: 8vw; /* Larger font size on small screens */
+    }
+
+    .stopwatch {
+        font-size: 5vw; /* Adjusted for readability on small screens */
+    }
+
+    .buttons button {
+        font-size: 4vw; /* Smaller buttons on small screens */
+        padding: 10px 20px; /* Adjust padding */
+    }
 }
